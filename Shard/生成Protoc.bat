@@ -21,7 +21,7 @@ csc /target:library /reference:Google.Protobuf.dll /out:ProtoData.dll *.cs
 
 ::拷贝生成的文件到客户端服务器目录
 echo copy ProtoData.dll to client
-xcopy ProtoData.dll ..\SimpleChat\SimpleChat\Assets\Plugins /y/d/q
+xcopy ProtoData.dll ..\SimpleChat\Assets\Plugins /y/d/q
 echo copy ProtoData.dll to server
 xcopy ProtoData.dll ..\SimpleChatServer\SimpleChatServer\Reference /y/d/q
 
