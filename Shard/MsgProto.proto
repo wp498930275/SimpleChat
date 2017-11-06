@@ -32,3 +32,9 @@ message RegisterResponse
 	int32 returnCode = 1;
 }
 
+enum UserStatus
+{
+	Online		= 1;
+	Offline		= 2;
+	Hide		= 3;
+}
